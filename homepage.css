@@ -1,0 +1,43 @@
+body {
+	background-color: #222;
+	color: yellow;
+	font-family: monospace;
+}
+
+h1, h3, div {
+	text-align: center;
+}
+
+#school-h {
+	color: black;
+	background-color: green;
+}
+
+#fun-h {
+	color: black;
+	background-color: aqua;
+}
+
+#personal-h {
+	color: black;
+	background-color: red;
+}
+
+.div-body {
+	text-align: center;
+	width: 58em;
+	margin: 0 10px 0 0 auto;
+
+}
+
+.column {
+	float: left;
+	width: 15em;
+	padding: 2px 5px 2px 5px;
+	margin: auto;
+}
+
+li, a {
+	text-decoration: none;
+	list-style: none;
+}
