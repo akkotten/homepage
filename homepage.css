@@ -2,6 +2,9 @@ body {
 	background-color: #222;
 	color: yellow;
 	font-family: monospace;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 h1, h3, div {
@@ -26,13 +29,13 @@ h1, h3, div {
 .div-body {
 	text-align: center;
 	width: 58em;
-	margin: 0 10px 0 0 auto;
+/*	margin: 0 10px 0 0 auto;*/
 
 }
 
 .column {
 	float: left;
-	width: 15em;
+	width: 13em;
 	padding: 2px 5px 2px 5px;
 	margin: auto;
 }
@@ -40,4 +43,7 @@ h1, h3, div {
 li, a {
 	text-decoration: none;
 	list-style: none;
+	color: inherit;
+	padding: 1px;
+	font-size: large;
 }
